@@ -35,23 +35,18 @@ with(kRdata, table(Sex, result))
 
 ```
 ``` {r eval=FALSE}
-kRdata <- kRdata%.%
-
-
-
-
-
+kRdata <- kRdata %>%
+mutate (across(where (is.character), as.factor))
+```
 
 ## We create two bar charts - one based on frequency and the other on percent, use ggplot commands to do this
-
-`
-
-  
-
-
+``` {r}
+barchartGC(~result + Sex, data= kRdata)
+barchartGC (~result + Sex, data=kRdata,type= "percent")
+```
 
 
-
+There were more females than males who were a part of this experiment but there were more men who died form covid. 
   
 ## Numerical results
 
