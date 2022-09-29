@@ -1,7 +1,7 @@
 ---
 title: "covid 19"
-author: "Dr K"
-date: "5/2/2020"
+author: "America Olivo"
+date: "9/29/2022"
 output:
   html_document: default
   pdf_document: default
@@ -23,8 +23,7 @@ Some of the data was uncoded for sex - sex must be just male or female
 state of a patient must be died or alive - we adjust that as well   
   
 # Question 1 - Is dying independent of sex
-
-
+To find out if dying is an independent variables or not. We will be using out graphical, numerical, inferential results to get the information and percentage for the answer. 
 
 
 Table of patients:
@@ -35,6 +34,13 @@ Table of patients:
 with(kRdata, table(Sex, result))
 
 ```
+``` {r eval=FALSE}
+kRdata <- kRdata%.%
+
+
+
+
+
 
 ## We create two bar charts - one based on frequency and the other on percent, use ggplot commands to do this
 
