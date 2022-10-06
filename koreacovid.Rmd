@@ -60,8 +60,14 @@ The numerical results shows us that the men were dying 2 times faster than femal
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
 
+The test shows is that the men are 2.3 times more likely than a women to die. The confidence level is 95% and a 1.4 is lowest subtracted by the highest which is 3.9
 
 ## Conclusions
 
