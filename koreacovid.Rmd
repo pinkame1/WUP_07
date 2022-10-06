@@ -71,3 +71,5 @@ The test shows is that the men are 2.3 times more likely than a women to die. Th
 
 ## Conclusions
 
+Even if there were more females than males in this experiment, there were way more men who died from covid. The numerical results shows us that men were dying twice as fast as women. Dying isn't independent if gender didnt matter and the death rate would be the same. 
+
