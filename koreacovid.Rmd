@@ -46,10 +46,17 @@ barchartGC (~result + Sex, data=kRdata,type= "percent")
 ```
 
 
-There were more females than males who were a part of this experiment but there were more men who died form covid. 
+There were more females than males who were a part of this experiment but there were more men who died from covid. 
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+The numerical results shows us that the men were dying 2 times faster than females. 
 
 ## Inferential results 
 
